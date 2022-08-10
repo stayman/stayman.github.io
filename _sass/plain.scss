@@ -77,9 +77,12 @@ main {
   }
 
   .summary {
+    text-align: justify;
+    text-justify: inter-word;
     list-style-type: none;
     margin: 45px 30px;
-    padding-left: 40px;
+    padding: 40px;
+    font-size: 18px;
     @media screen and (max-width: $smallMobileW) {
       margin-left: 20px;
       margin-right: 20px;
