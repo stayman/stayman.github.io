@@ -9,4 +9,4 @@ My name is Zack. I'm a (relatively new) Angeleno, and New York sports fan (go Ya
 
 ### Places I've Worked
 
-<img class="ihr" src="{% if site.plainwhite.dark_mode %}/assets/images/ihr.png{% else %}/assets/images/ihr-light.png{% endif %}"/>
+<img class="ihr" src="{%- if site.plainwhite.dark_mode -%}/assets/images/ihr.png{%- else -%}/assets/images/ihr-light.png{%- endif -%}"/>
