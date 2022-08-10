@@ -91,6 +91,20 @@ main {
       padding: 0 !important;
       margin-top: 0;
     }
+
+    h3 {
+      text-align: center;
+    }
+
+    img {
+      margin: 15px;
+      width: calc((100% - 30px) / 3);
+      height: auto;
+
+      @media screen and (max-width: $mobileW) {
+        width: 100%;
+      }
+    }
   }
 
   .about {
